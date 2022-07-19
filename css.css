@@ -1,0 +1,66 @@
+div, p, h1, h2, h3{
+    font-family: 'Noto Sans TC', sans-serif;
+    /* 選字體 */
+    font-weight: 400;
+    /* 粗度 */
+    text-indent: 32px;
+    /* 前方空格 */
+}
+.head{
+    background-color: #003344; color:white; font-weight:blod/*粗體*/; font-size:30px;
+    text-align:center;/*文字對齊*/ padding:10px; flex:auto
+}
+.content{
+    width:1000px; margin-left:auto; margin-right:auto;
+}
+.box{
+    width:850px; padding:15px; margin:20px auto/*auto可置中div*/; background-color: rgb(232, 243, 252);
+    /* display:inline-block; vertical-align:TOP;  */
+     height:180px; line-height:30px;
+}
+.title{
+    font-size:1.5rem; text-align:center
+}
+.text{
+    padding:2px; font-size: 1rem;
+}
+
+.rows{
+    background-color: #003344; flex:auto;
+    text-align:center;/*文字對齊*/ 
+}
+
+.box1{
+    width:200px; ; margin:10px /*auto可置中div*/; display:inline-block; vertical-align:TOP; text-align:center;
+    color:white; font-weight:blod/*粗體*/;
+    height:70px; line-height:30px;
+}
+
+.box2{
+    width:200px; ; margin:10px /*auto可置中div*/; display:inline-block; vertical-align:TOP; text-align:left;
+    color:white; font-weight:blod/*粗體*/;
+    height:60px; line-height:30px;
+}
+a{
+    /* text-decoration: none; */
+    color:rgb(60, 242, 178); 
+}
+a:hover{
+    font-size:1.04rem;
+}
+
+@media screen and (max-width:600px){ /*判斷使用者為手機*/
+    .head{font-size:24px; text-align:center; width:100%;}
+    .content{width:100%; text-align:center;}
+
+}
+/* 使用者使用螢幕且使用著螢幕最大寬度為600px時，套用設定 */
+body{
+    background-image: url("././img/moon-colors-satellite.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+  }
+
+  
