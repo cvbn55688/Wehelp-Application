@@ -52,6 +52,12 @@ a:hover{
 @media screen and (max-width:600px){ /*判斷使用者為手機*/
     .head{font-size:24px; text-align:center; width:100%;}
     .content{width:100%; text-align:center;}
+    .box{width:80%; height:80%; text-align:center;}
+    .title{font-size:1rem;}
+    .text{font-size:0.15rem;}
+    .rows{text-align:center; width:100%;}
+    .box1{width:50%; height:20%; text-align:center;}
+    .box2{width:80%; height:20%; text-align:center;}
 
 }
 /* 使用者使用螢幕且使用著螢幕最大寬度為600px時，套用設定 */
